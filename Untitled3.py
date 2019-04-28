@@ -55,3 +55,32 @@ if (d>5):
     if(d>6 and d<10):
       print("hi")
 
+
+# In[30]:
+
+
+arr=["apple","mango","banana","strawberry"]
+print(arr[3])
+print(arr[2])
+
+
+# In[31]:
+
+
+print (arr)
+
+
+# In[32]:
+
+
+un=["cucumber","carot","ginger"]
+un.pop(1)
+print (un)
+
+
+# In[33]:
+
+
+arr.append(un.pop(1))
+print (arr)
+
